@@ -6,7 +6,7 @@ include('includes/config.php');
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>TMS | Tourism Management System</title>
+<title>VIT-AP TOURS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
@@ -22,17 +22,35 @@ include('includes/config.php');
 <script src="js/bootstrap.min.js"></script>
 <!--animate-->
 <link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
 <script src="js/wow.min.js"></script>
 	<script>
 		 new WOW().init();
 	</script>
 <!--//end-animate-->
+<style>
+	.banner{
+		background-image: url('https://www.thetimes.co.uk/travel/wp-content/uploads/sites/6/2021/05/Yep_The-white-sands-and-palm-trees-of-a-tropical-beach_Credit_GettyImages-471781838.jpg?w=2200&h=880&crop=1');
+	}
+	.container h1{
+		font-family: 'EB Garamond', serif;
+		color: white;
+		font-size: 60px;
+		font-weight: bold;
+		/* background-image: linear-gradient(to right, white 0%, orange 40%, yellow 60%, green 80%, blue 00%, indigo 100%	);
+  		background-clip: text;
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent; */
+	}
+</style>
 </head>
 <body>
 <?php include('includes/header.php');?>
-<div class="banner">
+<div  class="banner">
 	<div class="container">
-		<h1 class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;"> TMS - Tourism Management System</h1>
+		<h1 id="heading" class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn; "> VIT-AP TOURS</h1>
 	</div>
 </div>
 
@@ -45,8 +63,8 @@ include('includes/config.php');
 				<a href="offers.html"><i class="fa fa-usd"></i></a>
 			</div>
 			<div class="rup-rgt">
-				<h3>UP TO Rs 1999 OFF</h3>
-				<h4><a href="offers.html">TRAVEL SMART</a></h4>
+				<h3>UP TO Rs 299 OFF</h3>
+				<h4><a href="offers.html">VIT-AP STUDENT ID CARD</a></h4>
 			</div>
 				<div class="clearfix"></div>
 		</div>
@@ -55,8 +73,8 @@ include('includes/config.php');
 				<a href="offers.html"><i class="fa fa-h-square"></i></a>
 			</div>
 			<div class="rup-rgt">
-				<h3>UP TO 70% OFF</h3>
-				<h4><a href="offers.html">ON HOTELS ACROSS WORLD</a></h4>
+				<h3>UP TO 25% OFF</h3>
+				<h4><a href="offers.html">ON HOTELS ACROSS AP</a></h4>
 				
 			</div>
 				<div class="clearfix"></div>
@@ -66,7 +84,7 @@ include('includes/config.php');
 				<a href="offers.html"><i class="fa fa-mobile"></i></a>
 			</div>
 			<div class="rup-rgt">
-				<h3>FLAT Rs 2999 OFF</h3>
+				<h3>FLAT Rs 399 OFF</h3>
 				<h4><a href="offers.html">OUR APP OFFER</a></h4>
 			
 			</div>

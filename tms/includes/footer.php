@@ -14,6 +14,6 @@
 				<li><a class="googleplus" href="#"><span>Google+</span></a></li>
 			</ul>
 		</div>
-		<p class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">© 2023 TMS || VIT-AP . All Rights Reserved </p>
+		<p class="wow zoomIn animated animated" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: zoomIn;">© 2023 VIT-AP Tours || VIT-AP . All Rights Reserved </p>
 	</div>
 </div>
